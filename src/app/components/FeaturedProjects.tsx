@@ -52,7 +52,7 @@ const FeaturedProjects = () => {
                                 </div>
                             </div>
                             <div className={`w-full h-full pt-12 pr-5 pl-5 overflow-hidden md:flex md:items-start md:justify-center`} >
-                                <div className={`w-full h-[80%] min-h-96 overflow-hidden relative border border-white/45 rounded-2xl sm:-mr-24`}>
+                                <div className={`w-full h-[80%] min-h-96 overflow-hidden relative  rounded-2xl sm:-mr-24`}>
                                     <Image src={project.laptopImg} fill={true} className={`object-cover object-left w-full h-auto transition-all duration-200 ease-in-out`} alt={project.laptopImg} />
                                 </div>
                             </div>

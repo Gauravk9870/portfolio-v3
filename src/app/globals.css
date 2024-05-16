@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  color: white;
 }
 
 /* linear-gradient(144deg, rgba(60,5,255,1) 0%, rgba(136,67,220,1) 76%) */
