@@ -65,12 +65,12 @@ const Hero: React.FC = () => {
                                 
 
                                 <Button
-                                    className="hidden uppercase py-2 px-5 rounded-3xl bg-[#fa571f] text-sm md:block border-0"
+                                    className="hidden uppercase py-2 px-5 rounded-3xl bg-[#fa571f] text-sm md:block border-0 text-white"
                                 >
                                     FullStack Developer
                                 </Button>
 
-                                <h1 className=' flex items-center gap-1 uppercase text-4xl font-extrabold md:flex-col md:text-7xl lg:text-8xl font-sans'>
+                                <h1 className=' flex items-center gap-1 uppercase text-4xl font-extrabold md:flex-col md:text-7xl lg:text-8xl font-sans text-white'>
                                     <span
                                     >Gaurav</span>
                                     <span className=' md:font-normal md:text-[5rem] lg:text-[6.73rem]'>
@@ -78,12 +78,12 @@ const Hero: React.FC = () => {
                                         <span className="dot">.</span>
                                     </span>
                                 </h1>
-                                <h2 className=' block md:hidden uppercase text-xl text-center'>FullStack Developer</h2>
+                                <h2 className=' block md:hidden uppercase text-xl text-center text-white'>FullStack Developer</h2>
                             </div>
                         </div>
                         <div className={` flex items-center justify-center`}>
                             <div className={` flex items-center justify-center flex-col`}>
-                                <p className=' items-center text-[0.5625rem] md:text-base lg:text-lg'>Crafting Intuitive User Interfaces for Seamless Experiences</p>
+                                <p className=' items-center text-[0.5625rem] md:text-base lg:text-lg text-white'>Crafting Intuitive User Interfaces for Seamless Experiences</p>
                             </div>
                         </div>
 

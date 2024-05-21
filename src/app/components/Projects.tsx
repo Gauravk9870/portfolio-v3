@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
                 <button className='py-2 px-5 rounded-3xl bg-[#fa571f] text-base  mb-4'>
                     Projects
                 </button>
-                <h2 className=' text-5xl font-bold font-sans text-center md:text-left'>Some Things I’ve Built</h2>
+                <h2 className=' text-5xl font-bold font-sans text-center md:text-left text-white'>Some Things I’ve Built</h2>
 
 
                 <div className=" mt-24 flex flex-col gap-10">
@@ -82,11 +82,11 @@ const Projects: React.FC = () => {
 
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className=" absolute w-1/4 bottom-0 right-0 opacity-10 "><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
 
-                                    <h3 className=' text-4xl font-bold font-sans z-10'>Bulk Messenger</h3>
-                                    <p className=' text-base z-10'>Developed a robust backend system using Node.js, Express.js
+                                    <h3 className=' text-4xl font-bold font-sans z-10 text-white'>Bulk Messenger</h3>
+                                    <p className=' text-base z-10 text-white'>Developed a robust backend system using Node.js, Express.js
                                         and PostgreSQL to facilitate bulk messenger capabilities and
                                         CRM functionalities.</p>
-                                    <p className=' text-base z-10'>
+                                    <p className=' text-base z-10 text-white'>
                                         Designed and deployed RESTful APIs to handle user
                                         authentication, agents’ management, and message sending
                                         ensuring scalability and efficiency.
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
 
 
                                 <Skills data={skillsData} padding={0} />
-                                <h4 className=' text-3xl font-bold font-sans z-10'>Development Tools</h4>
+                                <h4 className=' text-3xl font-bold font-sans z-10 text-white'>Development Tools</h4>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ const Projects: React.FC = () => {
                     {/* Some more Projects  */}
                     <div className=' flex flex-col gap-10'>
 
-                        <h3 className=' text-4xl font-bold font-sans z-10'>Some others worthy projects</h3>
+                        <h3 className=' text-4xl font-bold font-sans z-10 text-white'>Some others worthy projects</h3>
 
                         <div className='others grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
                             {miscProjects.map((project, idx) => (
