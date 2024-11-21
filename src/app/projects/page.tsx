@@ -1,14 +1,14 @@
-import React from 'react'
-import Projects from '../components/Projects'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../../components/layout/Navbar";
+import Projects from "@/components/layout/Projects";
 
 const page = () => {
   return (
-    <section className='bg-[#000000]'>
+    <section className="bg-[#000000]">
       <Navbar />
       <Projects />
     </section>
-  )
-}
+  );
+};
 
-export default page
+export default page;

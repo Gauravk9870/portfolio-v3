@@ -25,53 +25,75 @@
 html {
   scroll-behavior: smooth;
   color: white;
+  overflow: hidden; /* Disables scrolling entirely (if needed) */
+}
+
+html {
+  overflow-y: scroll; /* Enables vertical scrolling */
+  scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for Chrome, Safari, and Edge */
 }
 
 /* linear-gradient(144deg, rgba(60,5,255,1) 0%, rgba(136,67,220,1) 76%) */
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(7, 5, 102);
-  background: -moz-radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
-  background: -webkit-radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
-  background: radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070566", endColorstr="#030115", GradientType=1);
 }
 
 .hero {
   background: rgb(7, 5, 102);
-  background: -moz-radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
-  background: -webkit-radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
-  background: radial-gradient(circle,
-      rgba(7, 5, 102, 1) 0%,
-      rgba(41, 31, 162, 1) 0%,
-      rgba(3, 3, 57, 1) 53%,
-      rgba(3, 3, 56, 1) 80%,
-      rgba(3, 1, 21, 1) 100%);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(7, 5, 102, 1) 0%,
+    rgba(41, 31, 162, 1) 0%,
+    rgba(3, 3, 57, 1) 53%,
+    rgba(3, 3, 56, 1) 80%,
+    rgba(3, 1, 21, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070566", endColorstr="#030115", GradientType=1);
 }
 
@@ -83,7 +105,6 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
 
 @layer utilities {
   .text-balance {

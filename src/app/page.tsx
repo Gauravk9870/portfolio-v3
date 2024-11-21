@@ -1,14 +1,10 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-
-import Experience from "./components/Experience";
+import Hero from "../components/layout/Hero";
+import Experience from "../components/layout/Experience";
+import Projects from "@/components/layout/Projects";
 
 export default function Home() {
   return (
-    <main>
+    <main className="hide-scrollbar">
       <Hero />
       <Experience />
       <Projects />
