@@ -72,6 +72,7 @@ const Hero: React.FC = () => {
                     fill
                     className={` object-contain w-full grayscale`}
                     alt="Main Logo"
+                    priority
                   />
                 </div>
                 <div
